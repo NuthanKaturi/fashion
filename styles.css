@@ -1,0 +1,183 @@
+.header{
+    width:100%;
+    height: 160px;
+    background-color:white;
+    margin-top: 6%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Poppins,sans-serif;
+    font-display: #222;
+    margin: 10px;
+    margin-top: 0px;
+  }
+span.owner{
+   background: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.theme_Image{
+    width: 100%;
+}
+.theme{
+    position: relative;
+}
+.textData{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 50px;
+    color: white;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+   
+      }
+    @media (max-width: 768px) {
+        .textData{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 50px;
+       color: white;
+        }
+    }
+    @media (max-width: 576px) {
+        .textData{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 50px;
+        color: white;
+        }
+      
+    }
+
+    .card_1{
+        padding: 20px;
+        margin: 20px;
+        background-color: azure;
+    }
+
+    .card_2{
+        padding: 20px;
+        margin: 20px;
+        background-color: azure;
+    }
+    .card_3{
+       margin-left: -15px;
+        margin-top: 20px;
+        background-color: azure;
+    }
+    .card_popular{
+        margin-left: -15px;
+        margin-top: 20px;
+        background-color: white;
+    }
+
+    .card-body img{
+        text-align: center;
+    }
+
+    #replies{
+        clear: both;
+        margin-top: 40px;
+    }
+    #replies2{
+        clear: both;
+        margin-top: 40px;
+    }
+    #replies3{
+        clear: both;
+        margin-top: 40px;
+    }
+    .side{
+        display: inline-block;
+    }
+    .author_img{
+        position: relative;
+        height: 400px;
+        background-color: black;
+    }
+    .author_details{
+        position: absolute;
+        top:60%;
+        color: white;
+        text-align: center;
+    }
+    .card_popular .card-pophead{
+        background-color: black;
+        color: white;
+        font-family: "Oswald";
+        font-weight: 400;
+    }
+    .popular_list li{
+text-decoration: none;
+    }
+
+    .Advertise{
+        height: 300px;
+    }
+    .inner-adv{
+        height: 270px;
+        background-color: #f1f1f1!important;
+    }
+
+    .tags{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 8px;
+    text-align: center;
+    background-color: #f1f1f1!important;
+    }
+    .inspt{
+        padding: 3px;
+    }
+
+    .social a{
+        font-size: 1rem;
+        padding: 1rem;
+      }
+      
+      .fa-facebook{
+      color: #3b5998;
+      }
+      .fa-instagram{
+        color: #517fa4;
+      }
+      .fa-google-plus-g{
+        color: #dd4b39;
+      }
+      .fa-youtube{
+        color: #bb0000;
+      }
+      .fa-twitter{
+        color: #00aced;
+      }
+
+      footer{
+        background-color: #3f3f3f;
+        color:#d5d5d5;
+        padding-top:2rem; 
+        
+      }
+      hr.light{
+        border-top: 1px solid #d5d5d5;
+        width:75%;
+      }
+      .navbar-nav li{
+        padding: 10px;
+        
+      }
+      .navbar-nav li a{
+       color: white !important;
+        
+      }
+      .nav-link{
+        font-size: 1.1em;
+        
+      }
+      .navbar{
+        background-color: black;
+       
+      }
